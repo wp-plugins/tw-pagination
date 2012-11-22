@@ -5,8 +5,8 @@
  * Plugin URI: http://vuckovic.biz/wordpress-plugins/tw-pagination
  * Description: A simple and flexible pagination plugin for WordPress posts and comments.
  * Author: Igor Vučković
- * Version: 1.0
  * Author URI: http://vuckovic.biz
+ * Version: 1.0
  */
 
 //	Set the wp-content and plugin urls/paths
