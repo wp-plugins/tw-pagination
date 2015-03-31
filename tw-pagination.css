@@ -1,0 +1,113 @@
+/**
+ * Plugin Name: TW Pagination
+ * Plugin URI: http://vuckovic.biz/wordpress-plugins/tw-pagination
+ * Description: A simple and flexible pagination plugin for WordPress posts and comments.
+ * Author: Igor Vučković
+ * Author URI: http://vuckovic.biz
+ * Version: 1.0
+ */
+
+/* P A G E S   P A G I N A T I O N
+----------------------------------------*/
+.tw-pagination {
+	padding: 5px;
+	margin: 0;
+	list-style: none;
+}
+
+.tw-pagination li {
+	display: inline;
+	list-style: none;
+}
+
+.tw-pagination a {
+	background: #e7e7e7;
+	border: 1px solid #d7d7d7;
+	color: #666666;
+	margin-right: 4px;
+	padding: 3px 6px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.tw-pagination a:hover,.tw-pagination a:active {
+	background: #d7d7d7;
+	color: #888888;
+}
+
+.tw-pagination .title {
+	margin-right: 4px;
+}
+
+.tw-pagination .gap {
+	color: #999999;
+	margin-right: 4px;
+}
+
+.tw-pagination .current {
+	color: #666666;
+	background: #f7f7f7;
+	border: 1px solid #e7e7e7;
+	margin-right: 4px;
+	padding: 3px 6px;
+}
+
+.tw-pagination .page {
+	
+}
+
+.tw-pagination .prev,.tw-pagination .next {
+	
+}
+
+/* C O M M E N T S   P A G I N A T I O N
+----------------------------------------*/
+.tw-pagination-comments {
+	padding: 5px;
+	margin: 0;
+}
+
+.tw-pagination-comments li {
+	display: inline;
+	list-style: none;
+}
+
+.tw-pagination-comments a {
+	background: #e7e7e7;
+	border: 1px solid #d7d7d7;
+	color: #666666;
+	margin-right: 4px;
+	padding: 3px 6px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.tw-pagination-comments a:hover,.tw-pagination-comments a:active {
+	background: #d7d7d7;
+	color: #888888;
+}
+
+.tw-pagination-comments .title {
+	margin-right: 4px;
+}
+
+.tw-pagination-comments .gap {
+	color: #999999;
+	margin-right: 4px;
+}
+
+.tw-pagination-comments .current {
+	color: #666666;
+	background: #f7f7f7;
+	border: 1px solid #e7e7e7;
+	margin-right: 4px;
+	padding: 3px 6px;
+}
+
+.tw-pagination-comments .page {
+	
+}
+
+.tw-pagination-comments .prev,.tw-pagination-comments .next {
+	
+}
