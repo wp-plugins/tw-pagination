@@ -130,8 +130,9 @@ if(!class_exists('TW_Pagination')) {
             $output .= stripslashes($after);
 
             if($pages > 1 || $empty) {
-                echo $output;
+                return $output;
             }
+            return '';
         }
 
         /**
@@ -360,8 +361,16 @@ if (!function_exists('tw_pagination')) {
     function tw_pagination($query = 'global', $args = false)
     {
         global $tw_pagination;
-        return $tw_pagination->paginate($query, $args);
+        echo $tw_pagination->paginate($query, $args);
     }
+}
+
+if (!function_exists('get_tw_pagination')) {
+	function get_tw_pagination($query = 'global', $args = false)
+	{
+		global $tw_pagination;
+		return $tw_pagination->paginate($query, $args);
+	}
 }
 
 //	Pagination function to use for post comments
